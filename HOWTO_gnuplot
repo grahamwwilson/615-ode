@@ -1,0 +1,6 @@
+set xlabel 'x (yards)'
+set ylabel 'y (yards)'
+plot 'golf.dat' using 2:3
+
+set xlabel 't (s)'
+plot 'golf.dat' using 1:3
